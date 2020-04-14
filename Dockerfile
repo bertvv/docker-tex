@@ -1,4 +1,4 @@
-FROM archlinux/base AS docker-latex
+FROM archlinux/base
 
 RUN \
   pacman -Sy; \
